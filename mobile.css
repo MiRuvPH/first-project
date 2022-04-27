@@ -1,0 +1,59 @@
+@media (min-width:320px) and (max-width:640px) {
+    
+
+.container{
+    max-width: 640px;
+}
+
+.header__inner{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header{
+    padding-top: 10px;
+}
+
+.intro__inner{
+    max-width: 640px;
+}
+
+.intro{
+    padding-bottom: 40px;
+}
+
+.intro__suptitle{
+    font-size: 40px;
+}
+
+.intro__title{
+    font-size: 60px;
+}
+
+.slider{
+    display: none;
+}
+
+.section{
+    padding: 40px 0;
+}
+
+.section__text{
+    padding: 0 10px;
+    line-height: 1.5;
+}
+
+.about{
+    flex-wrap: wrap;
+    margin: 40px auto 0;
+}
+
+.about__item{
+    margin: 5px 10px 5px 10px;
+    
+}
+
+.about__img img {
+    width: 100%;
+}
+}

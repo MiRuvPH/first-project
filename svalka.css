@@ -1,0 +1,118 @@
+/* ABOUST US */
+
+.story{
+    background-color: #fff;
+    display: block;
+    padding-top: 20px;
+
+
+}
+
+
+.story__sp{
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive ;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.story__tt{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.story__tt::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    display: block;
+    background-color: #f38181;
+    margin: 40px auto;
+}
+
+.about{
+    padding-bottom: 100px;
+}
+
+.about__txt{
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+    line-height: 2;
+
+}
+
+
+/* TODO */
+.about__pics{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    flex: auto;
+}
+
+.pics__item{
+    border: 2px solid #fff;
+    width: 30%;
+  
+    
+}
+
+.about__img{
+    width: 380px;
+    height: 250px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+
+/* Section SMTH*/
+
+/* .photos{
+    display: block;
+} */
+
+.phgrid{
+    display: grid;
+    grid-template-areas: 
+    "ph1 ph2 ph3 ph4"
+    "ph5 ph6 ph3 ph7";
+}
+
+.phgrid__item{
+    row-gap: 0px;
+    column-gap: 0px;
+}
+
+.photo{
+    padding: 0;
+    margin: 0;
+}
+
+.ph1{
+    grid-area: ph1;
+}
+.ph2{
+    grid-area: ph2;
+}
+.ph3{
+    grid-area: ph3;
+}
+.ph4{
+    grid-area: ph4;
+}
+.ph5{
+    grid-area: ph5;
+}
+.ph6{
+    grid-area: ph6;
+}
+.ph7{
+    grid-area: ph7;
+}
+
+
