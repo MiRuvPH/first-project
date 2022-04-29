@@ -1197,7 +1197,7 @@ hr{
     justify-content: center;
     align-items: center;
     height: 60px;
-    border: 1px solid #999999 ;
+    border-top: 1px solid #999999 ;
 }
 
 .footer__text{

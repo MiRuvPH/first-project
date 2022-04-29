@@ -1,8 +1,8 @@
-@media (max-width:640px) {
+@media (max-width:425px) {
     
 
 .container{
-    max-width: 640px;
+    max-width: 100%;
     padding: 0 10px;
 }
 
@@ -15,8 +15,15 @@
     padding-top: 10px;
 }
 
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
 .intro__inner{
-    max-width: 640px;
+    max-width: 100%;
 }
 
 .intro{
@@ -198,14 +205,21 @@
 }
 
 .reviews__pic{
-    width: 30%;
+    width: 90px;
     border: 2px solid  #95e1d3;
     padding: 25px;
     position: absolute;
-    left: 35%;
+    left: 40%;
     top: 0;
     z-index: 1;
     transform: translateY(-50%)
+}
+
+.reviews__pic2{
+    width: 100px;
+    left: 40%;
+    top: -50px;
+    z-index: 1;
 }
 
 .reviews__text{
@@ -222,5 +236,163 @@
     left: 20%;
 }
 /* Reviews END */
+
+/* TEAM */
+
+.team{
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.team__card{
+    margin-bottom: 30px;
+}
+
+.team__card:last-child{
+    margin-bottom: 0;
+}
+
+.team__item{
+max-width: 90%;
+}
+
+.team__item img{
+    max-width: 100%;
+}
+
+/* TEAM END */
+
+
+/* PROJECTS */
+
+.prj{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prj__img{
+    margin-bottom: 10px;
+}
+
+.prj__img:last-child{
+    margin-bottom: 0;
+}
+
+/* PROJECTS END */
+
+/* Section SMTH  */
+.photos{
+   flex-direction: column;
+}
+
+.photos__pic{
+    max-width: 100%;
+}
+
+/* Section SMTH END */
+
+/* Section PEOPLE */
+.peoples{
+    flex-direction: column;
+}
+
+.peoples__block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.peoples__item{
+    display: flex;
+    
+    width: 100%;
+    height: auto;
+    padding: 60px 15px 20px;
+    position: relative;
+    margin: 30px auto;
+}
+
+.peoples__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.peoples__photo{
+    width: 90px;
+    height: 90px;
+    top: -40px;
+    left: 35%;
+}
+
+.peoples__job::after{
+    width: 100%;
+}
+
+.section--people{
+    padding-bottom: 0;
+}
+
+/* Section PEOPLE END */
+
+/* Section Stories */
+
+.blog{
+    flex-direction: column;
+
+}
+
+.blog__item{   
+  width: 90%;
+
+}
+
+.blog__item img{
+    max-width: 100%;
+}
+
+
+.blog__date{
+    top: 90px;
+}
+/* Section Stories END */
+
+/* CONTACT */
+
+.contact__columns{
+    flex-direction: column;
+}
+
+.contact__item{
+    width: 100%;
+    max-height: 400px ;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.contact__item:first-child{
+    margin-bottom: 60px;
+}
+
+.aboutus__text{
+    text-align: center;
+}
+
+.aboutus__mail{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+}
+
+.subsbutton{
+    width: 100%;
+}
+
+.email{
+    width: 100%;
+    margin-bottom: 10px;
+}
 
 }
