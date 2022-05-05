@@ -1,5 +1,11 @@
-@media (max-width:425px) {
-    
+@media (max-width:480px)  {
+
+html,body{overflow-x:hidden;}
+
+.section{
+    max-width: 100%;
+    padding: 0 10px;
+}
 
 .container{
     max-width: 100%;
@@ -54,11 +60,13 @@
 .about{
     flex-wrap: wrap;
     margin: 40px auto 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .about__item{
     margin: 8px 10px 8px 10px;
-    
+    width: 90%;
 }
 
 .about__img img {
@@ -240,6 +248,8 @@
 /* TEAM */
 
 .team{
+    align-items: center;
+    justify-content: center;
     max-width: 100%;
     flex-direction: column;
 }
@@ -253,7 +263,7 @@
 }
 
 .team__item{
-max-width: 90%;
+    max-width: 90%;
 }
 
 .team__item img{
@@ -341,7 +351,7 @@ max-width: 90%;
 
 .blog{
     flex-direction: column;
-
+    align-items: center;
 }
 
 .blog__item{   
